@@ -1,0 +1,12 @@
+# Default training parameters
+dataset: darpatc
+scene: cadets
+epochs: 30
+batch_size: 0  # 0 means full batch
+lr: 0.01
+hidden_dim: 128
+sage_layers: 1
+tgat_layers: 1
+use_tgat: true
+gamma: 1.0
+heads: 8
